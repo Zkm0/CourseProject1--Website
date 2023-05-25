@@ -1,0 +1,50 @@
+
+/* Body styling */
+body {
+  background-color: #f7ede2;
+  }
+  
+  /* Header styling */
+  [data-role="header"] {
+  background-color: #f7f3e9;
+  }
+  
+  /* Navbar styling */
+  [data-role="navbar"] {
+  background-color: #ede4e0;
+  }
+  
+  /* Content styling */
+  [data-role="content"] {
+  background-color: #e9e5e1;
+  }
+  
+  /* Footer styling */
+  [data-role="footer"] {
+  background-color: #f7f3e9;
+  }
+  
+  /* Explore item styling */
+  .exploreItem {
+  background-color: #ede4e0;
+  }
+  
+  /* Button styling */
+  .ui-btn {
+  background-color: #f7ede2;
+  border-color: #ede4e0;
+  color: #ede4e0;
+  }
+  
+  /* Active button styling */
+  .ui-btn-active {
+  background-color: #ede4e0;
+  border-color: #ede4e0;
+  color: #f7ede2;
+  }
+  
+  
+  
+  
+  
+  
