@@ -6,19 +6,22 @@
   <title>Bucket List</title>
   
   <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+
+  <link rel="stylesheet" href="css/themes/my-custom-theme.css" />
+
   <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <link rel="stylesheet" type="text/css" href="Css/style.css">
 </head>
 <body>
   
 <h1>Express</h1>
 
 
-  <div data-role="page" id="home">
-    <div data-role="header">
+  <div data-role="page" data-theme= "a" id="home">
+    <div data-role="header" data-theme= "a">
       <h1>Bucket List</h1>
-      <div data-role="navbar">
+      <div data-role="navbar" data-theme= "a"> 
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#dataentry">Create New</a></li>
@@ -28,20 +31,20 @@
       </div>
       
     </div>
-    <div data-role="content">
+    <div data-role="content" data-theme= "a">
       <p>Welcome to Your Bucket List app!</p>
       <h3>Make it Happen.</h3>
       <p>Put the things you want to do in life, and keep track of your progress.</p>
     </div>
-    <div data-role="footer">
+    <div data-role="footer" data-theme= "a">
       <h4>&copy; Zoe and Eyob Prog209 2023</h4>
     </div>
   </div>
 
-  <div data-role="page" id="explore">
+  <div data-role="page" data-theme= "a" id="explore">
     <div data-role="header">
       <h1>Explore</h1>
-      <div data-role="navbar">
+      <div data-role="navbar" data-theme= "a">
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#dataentry">Create New</a></li>
@@ -50,7 +53,7 @@
         </ul>
       </div>
     </div>
-    <div data-role="content">
+    <div data-role="content" data-theme= "a">
     <h2 class="explore">Explore</h2>
     <ul id="explorelist" class="flex-container">
       <li class="exploreItem">
@@ -71,13 +74,13 @@
     </ul>
   </div>
     
-    <div data-role="footer">
+    <div data-role="footer" data-theme= "a">
       <h4>&copy; Zoe and Eyob Prog209 2023</h4>
     </div>
   </div>
 
-  <div data-role="page" id="dataentry">
-    <div data-role="header">
+  <div data-role="page" data-theme= "a" id="dataentry">
+    <div data-role="header" data-theme= "a">
       <h1>New Bucket List Item</h1>
       <div data-role="navbar">
         <ul>
@@ -88,7 +91,7 @@
         </ul>
       </div>
     </div>
-    <div data-role="content">
+    <div data-role="content" data-theme= "a">
       <h2>New Bucket List Item</h2>
       <form id="form">
         <label for="title">Title:</label>
@@ -102,13 +105,13 @@
         <input type="submit" value="Add">
       </form>
     </div>
-    <div data-role="footer">
+    <div data-role="footer" data-theme= "a">
       <h4>&copy; Zoe and Eyob Prog209 2023</h4>
     </div>
   </div>
   
 
- <div data-role="page" id="display">
+ <div data-role="page" data-theme= "a" id="display">
   <div data-role="header">
     <h1>Bucket List</h1>
     <div data-role="navbar">
@@ -120,7 +123,7 @@
       </ul>
     </div>
   </div>
- <div data-role="content">
+ <div data-role="content" data-theme= "a">
       <h2>Bucket List</h2>
       <ul id="bucketlist" data-role="listview"></ul>
     </div>
@@ -134,7 +137,7 @@
     </li>
       </ul>
     </div>
-    <div data-role="footer">
+    <div data-role="footer" data-theme= "a">
       <h4>&copy; Zoe and Eyob Prog209 2023</h4>
     </div>
   </div>
@@ -142,7 +145,7 @@
 
 
 
-<div data-role="page" id="update">
+<div data-role="page" data-theme= "a" id="update">
   <div data-role="header">
     <h1>Update Progress</h1>
   </div>
@@ -157,7 +160,7 @@
     <button id="deleteButton">Delete Item</button>
 
   </div>
-  <div data-role="footer">
+  <div data-role="footer" data-theme= "a">
     <h4>&copy; Zoe and Eyob Prog209 2023</h4>
   </div>
 </div>
